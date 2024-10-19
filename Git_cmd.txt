@@ -1,0 +1,83 @@
+
+mkdir FolderName
+cd FolderName
+
+
+git config -l
+git init
+git status
+git log
+
+
+Add user
+  git config --global user.email "anajiprojects@gmail.com"
+  git config --global user.name "anajiprojects123"
+
+Git bash Commands : 
+*…or create a new repository on the command line
+echo "# Project Name" >> README.md
+echo "# Project Name" >> README.txt
+git init
+git add README.md
+git add .
+git add filename
+
+# add commit msg
+git commit -m "commit message"
+git commit -m "first commit"
+
+# set branch
+git branch 
+git branch newBranch
+git checkout newBranch
+
+git branch -M main    / master
+git branch -M master
+git branch -M newBranch
+
+# check remot
+git remote -v
+
+# add remote repo
+git remote add origin https://github.com/anajikadam/Git_VC_Test.git
+git push -u origin master
+
+
+git remote add origin https://github.com/anajikadam17/Repo_name.git
+git push -u origin main   /master
+
+git remote add origin https://github.com/anajikadam/OCR-FastAPI.git
+git branch -M main
+git push -u origin main
+
+
+git pull
+
+C:\Users\azureuser\Anaji\firstProject>git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+
+user.name=anajiprojects123
+user.email=anajiprojects@gmail.com
+
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+
+https://github.com/anajikadam/Git_VC_Test.git
